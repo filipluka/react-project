@@ -1,0 +1,96 @@
+.contactIngress {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #F0EFE9;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.contactIngress h1 {
+    font-size: 3.5vw;
+}
+.nav {
+    display: flex;
+    margin: auto;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.contactBoxes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px;
+}
+
+.contactBox {
+    display: flex;
+    border: 1px solid #2f2f2f52;
+    padding: 20px;
+    width: 20%;
+}
+
+.contactBox p {
+    text-align: left;
+    margin: 5px;
+    font-weight: 100;
+}
+
+
+.contactBox-right {
+display: flex;
+flex-direction: column;
+}
+
+.contact-box-left img {
+    width: 60px;
+}
+
+.form {
+    padding: 30px 150px 100px 150px;
+    background-color: #F0EFE9;
+}
+
+.form h2 {
+    font-size: 3.5vw;
+    width: 50%;
+    margin: auto;
+    padding: 80px 0 30px 0;
+}
+
+.label-container {
+    display: flex;
+    justify-content: center;
+}
+
+.label-container input{
+    width:50%;
+    height: 50px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.label-container textarea{
+    width:50%;
+    height: 56px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.yellow-btn {
+    width: 52%;
+    background-color: #F9D783;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 56px;
+}
+
+.map img {
+    width: 100%;
+}

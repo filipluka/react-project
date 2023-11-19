@@ -1,0 +1,131 @@
+.section-1 {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #F0EFE9;
+    flex-direction: column;
+}
+
+.section-1-top {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #F0EFE9;
+}
+
+.section-1-container-top {
+    margin: auto;
+    display: flex;
+}
+
+.logo-img {
+    height: auto;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 100px 20px 0;
+    color: #2f2f2f52;
+    font-size: 1.2vw;
+    border-bottom: solid 1px #2f2f2f52;
+}
+
+.contact-div {
+    display: flex;
+    margin-right: 30px;
+}
+
+.contact-icon {
+    max-height: 15px;
+}
+
+.top-meny {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    min-width: 70%;
+}
+
+.meny {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media-icons {
+    padding-top: 20px;
+    border-bottom: solid 1px #2f2f2f52;
+}
+
+.item-link a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #2f2f2f;
+}
+
+.item-link:hover {
+    color: #2196f3
+}
+
+.login-button {
+    background-color: #F9D783;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.ingress {
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    margin: 0 175px 0 100px;
+}
+
+.ingress-left {
+    padding: 50px 0px 50px 50px;
+    max-width: 50%;
+}
+
+.ingress-right img {
+    width: 100%;
+    height: auto;
+}
+
+.paragraph-grey {
+    margin-bottom: 50px;
+    font-size: 1vw;
+}
+
+.ingress h1 {
+    margin-bottom: 10px;
+    font-size: 5vw;
+    text-align: left;
+}
+
+.ingress p {
+    text-align: left;
+}
+
+.ingress-buttons {
+    display: flex;
+}
+
+.consulting-button {
+    background-color: #F9D783;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.learn-button {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: solid 1px #2f2f2f;
+}

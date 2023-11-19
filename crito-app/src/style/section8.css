@@ -1,0 +1,56 @@
+.section-8 {
+    font-family: sans-serif;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 0 150px;
+}
+
+.article h3{
+    text-align: left;
+    font-size: 1.7vw;
+}
+
+.article p{
+    text-align: left;
+}
+
+.article-box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-box img{
+    width: 23vw;
+    height: 14vw;
+    object-fit: cover;
+}
+
+.article-box {
+    padding: 20px;
+    position: relative;
+}
+
+.button-article-transparent {
+    background-color: transparent;
+}
+
+.overlay-date-box {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: #edcf86;
+    color: #000;
+    padding: 10px 10px;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.overlay-date-box p,
+.overlay-date-box h3 {
+    margin: 0;
+}
